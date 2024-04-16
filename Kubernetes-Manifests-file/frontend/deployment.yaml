@@ -3,6 +3,9 @@ kind: Deployment
 metadata: 
   name: frontend
   namespace: three-tier
+  labels: 
+    role: frontend
+    env: demo
 spec:
   minReadySeconds: 3
   replicas: 2
