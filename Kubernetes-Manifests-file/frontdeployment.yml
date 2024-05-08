@@ -22,7 +22,7 @@ spec:
         role: frontend
     spec:
       containers:
-        - image: meena835/tws:frontend
+        - image: meena835/twsnew:latest
           name: tws
           env:
             - name: REACT_APP_BACKEND
