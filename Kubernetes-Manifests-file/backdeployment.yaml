@@ -65,7 +65,7 @@ spec:
   ports:
   - port: 3500
     protocol: TCP
-    targetport: 3500
+    targetPort: 3500
   type: ClusterIP
   selector:
     role: api          
