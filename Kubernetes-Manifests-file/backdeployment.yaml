@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: meena835/twsbackend:latest
+        image: meena835/twsbackend1:latest
         env:
           - name: MONGO_CONN_STR
             value: mongodb://mongodb-svc:27017/todo?directConnection=true
