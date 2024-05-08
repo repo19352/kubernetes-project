@@ -27,7 +27,7 @@ spec:
         image: meena835/twsbackend1:latest
         env:
           - name: MONGO_CONN_STR
-            value: mongodb://mongodb-svc:27017/todo?directConnection=true
+            value: 
           - name: MONGO_USERNAME
             valueFrom:
               secretKeyRef:
